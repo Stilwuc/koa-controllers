@@ -1,0 +1,46 @@
+{
+  "name": "@stilwuc/koa-controllers",
+  "version": "0.0.1",
+  "keywords": [
+    "koa",
+    "joi",
+    "swagger",
+    "typescript",
+    "router"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc --declaration",
+    "test": "jest --ci --coverage --no-cache",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Stilwuc/koa-controllers.git"
+  },
+  "author": "stilwuc",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "8.0.1",
+    "joi": "17.6.0",
+    "joi-to-swagger": "6.0.1",
+    "koa": "2.13.4",
+    "koa-router": "10.1.1",
+    "koa2-swagger-ui": "5.5.0",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/glob": "7.2.0",
+    "@types/jest": "27.4.1",
+    "@types/koa-router": "7.4.4",
+    "@types/lodash": "4.14.181",
+    "jest": "27.5.1",
+    "prettier": "2.6.2",
+    "ts-jest": "27.1.4",
+    "typescript": "4.6.3"
+  }
+}
